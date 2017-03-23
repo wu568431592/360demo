@@ -1,0 +1,275 @@
+#foot,#footer{
+	width:1240px;
+	margin:0px auto;
+}
+
+#header{
+	width:100%;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+body{
+	min-width: 1240px;
+}
+
+img{
+	vertical-align:middle;
+}
+
+#foot,#footer:before{
+	content:"";
+	display:table;
+}
+
+body{
+	color:#666;
+	font:12px "microsoft yahei",Arial,Helvtica,sans-serif;
+	font-size:12px;
+}
+a{
+	text-decoration:none;
+}
+
+/* 定义左右浮动 */
+.lf{float:left;}
+.rt{float:right;}
+/* 定义清除浮动 */
+.clear{clear:both;}
+/* ************************************************************************ */
+
+header div{
+	width:80%;
+	margin:5px auto;
+	padding:10px 0px;
+}
+
+
+section #back{
+	overflow: hidden;
+	position: relative;
+}
+
+section #back #adv{
+	float:left;
+	margin-left:150px;
+	margin-top:200px;
+}
+
+#container{
+	position: absolute;
+	top:0px;
+	left:0px;
+	overflow: hidden;
+}
+section #back #main{
+	float: right;
+	margin-right:150px;
+	margin-top:65px;
+	width:300px;
+	background: #F2F9FF;
+	padding:10px;
+}
+
+section #back #main #top{
+	background: url(images/uc-two-code.png) no-repeat right top;
+	height:100px;
+	line-height: 100px;
+}
+
+section #back #main #top h1{
+	font-family: "microsoft yahei";
+	font-size:20px;
+	margin-left:20px;
+}
+
+section #back #main input{
+	margin:10px 0px 10px 20px;
+	width:225px;
+	height: 40px;
+	padding-left:35px;
+	border:2px solid #E9E9E9;
+	background: #fff url(images/uc-account-icon.png) no-repeat 10px center;
+	font-size:14px;
+	color:#B2B2B2;
+}
+section #back #main input:focus{
+	border:2px solid #22AC69;
+}
+section #back #main input#password{
+	background: #fff url(images/uc-password-icon.png) no-repeat 10px center;
+}
+section #back #main input#password:focus{
+	border:2px solid green;
+}
+#other{
+	margin:10px 0px;
+	overflow: hidden;
+}
+
+#other span a{
+	color:#666;
+}
+#other span:first-child{
+	margin-left:20px;
+}
+#other span:nth-child(2){
+	margin-right:15px;
+}
+
+#login{
+	width: 262px;
+	height:40px;
+	margin:10px 0px 10px 20px;
+	background: url(images/uc-btn.png) repeat-x 0px -174px;
+	border:none;
+	border-radius: 5px;
+	color:#fff;
+	font-size:14px;
+	cursor: pointer;
+	
+}
+#login:hover{
+	background-position:  0px -43px;
+}
+
+#other_login{
+	overflow: hidden;
+	height:40px;
+	line-height: 40px;
+	margin-bottom:50px;
+}
+
+#other_login span{
+	float:left;
+}
+#other_login ul{
+	float:left;
+	margin-left:15px;
+}
+#other_login ul li{
+	float:left;
+	width:25px;
+	height:25px;
+	margin-left:6px;
+	margin-top:7px;
+	background: url(images/uc-sina-icon.png) no-repeat;
+	cursor: pointer;
+}
+#other_login ul li:hover{
+	background: url(images/uc-sina-icon-green.png) no-repeat;
+}
+
+#other_login ul li:nth-child(2){
+	background: url(images/uc-renren-icon.png) no-repeat;
+}
+#other_login ul li:nth-child(2):hover{
+	background: url(images/uc-renren-icon-green.png) no-repeat;
+}
+
+#other_login ul li:nth-child(3){
+	background: url(images/uc-feixin-icon.png) no-repeat;
+}
+#other_login ul li:nth-child(3):hover{
+	background: url(images/uc-feixin-icon-green.png) no-repeat;
+}
+
+#other_login ul li:nth-child(4){
+	background: url(images/uc-tianyi-icon.png) no-repeat;
+}
+#other_login ul li:nth-child(4):hover{
+	background: url(images/uc-tianyi-icon-green.png) no-repeat;
+}
+
+#other_login ul li:nth-child(5){
+	background: url(images/uc-QQ-icon.png) no-repeat;
+}
+#other_login ul li:nth-child(5):hover{
+	background: url(images/uc-QQ-icon-green.png) no-repeat;
+}
+
+#other_login ul li:nth-child(6){
+	background: url(images/uc-weixin-icon.png) no-repeat;
+}
+#other_login ul li:nth-child(6):hover{
+	background: url(images/uc-weixin-icon-green.png) no-repeat;
+}
+
+#foot>div{
+	width:90%;
+	margin:40px auto;
+}
+#foot>div ul{
+	overflow: hidden;
+}
+
+#foot>div ul li{
+	float:left;
+	border:1px solid #aaa;
+	margin-right: 50px;
+	padding:15px 20px 15px 75px;
+	background: url(images/go-complaint-gray.png) no-repeat 21px center;
+	cursor: pointer;
+}
+
+#foot>div ul li h2{
+	font-size:14px;
+	color:#333;
+}
+
+#foot>div ul li span{
+	font-size: 16px;
+	color:#aaa;
+}
+
+#foot>div ul li:nth-child(2){
+	background: url(images/frequent-question-icon.png) no-repeat 21px center;
+}
+#foot>div ul li:nth-child(2):hover{
+	background-image: url(images/frequent-question-icon-green.png);
+}
+
+#foot>div ul li:nth-child(3){
+	background: url(images/find-password-icon.png) no-repeat 21px center;
+}
+
+#foot>div ul li:nth-child(3):hover{
+	background: url(images/find-password-icon-green.png) no-repeat 21px center;
+}
+
+#foot>div ul li:nth-child(4){
+	background: url(images/account-security-icon.png) no-repeat 21px center;
+}
+#foot>div ul li:nth-child(4):hover{
+	background: url(images/account-security-icon-green.png) no-repeat 21px center;
+}
+
+#foot>div ul li:hover{
+	background-image: url(images/go-complaint-green.png);
+	border:1px solid #22AC69;
+}
+
+#foot>div ul li:hover h2{
+	color:#22AC69;
+}
+#foot>div ul li:hover span{
+	color:#22AC69;
+}
+#footer{
+	margin:0px auto;
+	text-align:center;
+}
+#footer p{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+#footer span{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background: url(images/plice.png) no-repeat;
+}

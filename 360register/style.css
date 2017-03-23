@@ -1,0 +1,205 @@
+#foot,#footer{
+	width:1240px;
+	margin:0px auto;
+}
+
+#header{
+	width:100%;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+body{
+	min-width: 1240px;
+}
+
+img{
+	vertical-align:middle;
+}
+
+#foot,#footer:before{
+	content:"";
+	display:table;
+}
+
+body{
+	color:#666;
+	font:12px "microsoft yahei",Arial,Helvtica,sans-serif;
+	font-size:12px;
+	background: #F6F6F6;
+}
+a{
+	text-decoration:none;
+}
+
+/* 定义左右浮动 */
+.lf{float:left;}
+.rt{float:right;}
+/* 定义清除浮动 */
+.clear{clear:both;}
+/* ************************************************************************ */
+header{
+	background: #E8E8E8;
+}
+
+header>div{
+	width:700px;
+	margin:5px auto;
+	padding:10px 0px;
+
+}
+
+header div p{
+	display:inline-block;
+	border-left:1px solid #ddd;
+	padding-left:30px;
+	margin-left:50px;
+	margin-top:10px;
+	line-height: 30px;
+	font-size:20px;
+}
+header div a{
+	color:#171717;
+}
+header div a:hover{
+	color:#78AC69;
+}
+
+header div span{
+	float:right;
+	font-size:14px;
+	line-height: 30px;
+	margin-top:10px;
+}
+
+section #main{
+	width:700px;
+	margin:60px auto;
+	background: #fff;
+	padding-bottom: 20px;
+}
+
+section #main h1{
+	text-align: center;
+	font-size: 20px;
+	padding:20px;
+	font-weight:normal;
+	border:2px solid #F6F6F6;
+}
+
+section #main #inputbox{
+	margin:0px 160px;
+}
+
+section #main #inputbox input{
+	width:338px;
+	height:42px;
+	line-height: 42px;
+	font-size: 16px;
+	color:#aaa;
+	border:1px solid #ddd;
+	border-radius: 3px;
+	padding-left:40px;
+	background: url(images/uc-account-icon.png) no-repeat 10px center;
+}
+
+section #main #inputbox input:first-child{
+	margin-top: 60px;
+}	
+
+section #main #inputbox input:nth-child(3){
+	background:url(images/uc-password-icon.png) no-repeat 10px center;
+}
+
+section #main #inputbox input:nth-child(5){
+	background: none;
+	width:228px;
+	padding-left:10px;
+}
+
+section #main #inputbox i{
+	display: block;
+	width: 100px;
+	height:42px;
+	border:1px solid #ddd;
+	position: relative;
+	top:-88px;
+	left:277px;
+	background: url(images/yanzheng.png) no-repeat;
+}
+
+section #main #inputbox span{
+	display: inline-block;
+	width:380px;
+	height:40px;
+	color:#e4393c;
+	font-size: 14px;
+	line-height:40px;
+}
+
+section #main #inputbox button{
+	color: #fff;
+	width:380px;
+	height: 42px;
+	border-radius: 3px;
+	border:none;
+	background: url(images/uc-btn.png) repeat-x 0px -174px ;
+}
+
+section #main #inputbox button:hover{
+	background-position:  0px -43px;
+}
+section #main #inputbox p{
+	margin:20px auto;
+	text-align: center;
+}
+
+section #main #inputbox p a{
+	color: #22AC69;
+}
+
+section #main #inputbox p a:hover{
+	text-decoration: underline;
+}
+
+#foot{
+	width:400px;
+	margin:0px auto;
+	text-align: center;
+}
+#foot span{
+	margin-right:20px;
+	font-size: 14px;
+	
+}
+#foot span a{
+	color:#666;
+}
+#foot span a:hover{
+	color: #22AC69;
+}
+
+#n2{
+	border-left:1px solid #aaa;
+	padding-left:20px;
+}
+
+#footer{
+	margin:0px auto;
+	text-align:center;
+}
+#footer p{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+#footer span{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background: url(images/plice.png) no-repeat;
+}
+
